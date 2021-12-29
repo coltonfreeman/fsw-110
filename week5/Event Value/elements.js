@@ -1,12 +1,12 @@
 var yourName = document.getElementById("yourName");
-var base = document.getElementById("base");
-var location = document.getElementById("location");
+var yourBase = document.getElementById("yourBase");
+var yourLocation = document.getElementById("yourLocation");
 
-let form = document.getElementById("myForm");
+let myform = document.getElementById("myform");
 
-form.addEventListener("submit", function() {
-    alert(`Your Name: ${yourName.value} \nBase: ${base.value} \nLocation: ${location.value}`);
-    yourName.value = "";
-    base.value = "";
-    location.value = "";
+myform.addEventListener("submit", function() {
+    alert(` 
+    Your Name: ${yourName.value}
+    Base: ${yourBase.value}
+    Location: ${yourLocation.value} `);
 });
