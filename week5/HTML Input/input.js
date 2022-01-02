@@ -12,7 +12,7 @@ form.addEventListener("submit", function() {
     First Name: ${form.first_name.value}
     Last Name: ${form.last_name.value}
     Age: ${form.age.value}
-    Has your team clinched a Playoff berth?${form.question.value}
-    What chance do you think your team will make it to the SuperBowl? ${selectMenu.options[selectMenu.selectedIndex].value}
+    Has your team clinched a Playoff berth: ${form.question.value}
+    What chance do you think your team will make it to the SuperBowl: ${selectMenu.options[selectMenu.selectedIndex].value}
     What other teams do you think will make it: ${teams}`);
 });
