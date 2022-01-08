@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+    </style>
+    <link rel="stylesheet" href="coffee.css">
+    <title>Online Coffee Shop</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>csCoffee</h1>
+            <h2>Coffee Shop Menu</h2>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="section-header"></h2>
+        <form action="">
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column"></span>
+                <span class="cart-price cart-header cart-column"></span>
+                <span class="cart-quantity cart-header cart-column"></span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://www.worldatlas.com/r/w960-q80/upload/12/f8/83/coffee-cup.jpg" alt="Cup of Coffee">
+                        <span class="cart-item-title">Coffee</span>
+                    </div>
+                    <span class="cart-price cart-column">$4.00</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" min="0" value="0">
+                    </div>
+                </div>
+                <div class="cart-items">
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="https://assets3.thrillist.com/v1/image/2830175/1200x600/scale;" alt="Cup of Hot Tea">
+                            <span class="cart-item-title">Tea</span>
+                        </div>
+                        <span class="cart-price cart-column">$3.00</span>
+                        <div class="cart-quantity cart-column">
+                            <input class="cart-quantity-input" type="number" min="0" value="0">
+                        </div>
+                    </div>
+                    <div class="cart-items">
+                        <div class="cart-row">
+                            <div class="cart-item cart-column">
+                                <img class="cart-item-image" src="https://chompies.com/wp-content/uploads/2017/05/chompies-phoenix-bagels-and-bakery-on-Food-and-Wine.jpg" alt="Breakfast Bagel">
+                                <span class="cart-item-title">Breakfast Bagel</span>
+                            </div>
+                            <span class="cart-price cart-column">$10.00</span>
+                            <div class="cart-quantity cart-column">
+                                <input class="cart-quantity-input" type="number" min="0" value="0">
+                            </div>
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Total</strong>
+                            <span class="cart-total-price">$0.00</span>
+                        </div>
+                        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>5687 LaMont Street</p>
+        <p>Las Vegas, NV 89103</p>
+        <p>www.csCoffee.com</p>
+        <p>Email: csCoffee@gmail.com</p>
+    </footer>
+    <script src="coffee.js"></script>
+</body>
+
+</html>

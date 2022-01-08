@@ -1,9 +1,11 @@
-/* var input = document.getElementById("change-me");
--Select our input by ID and assign it to the variable, "input"
--Use the add event listener method to put an event on "input"
--"change" is one of a few dozen strings and add event listener will understand. It's our first argument 
- input.addEventListener("change", function(e) { *We pass an entire function as the second argument. 
-    document.getElementById("output").textContent = e.target.value *Select the div, and change the "textContent" 
+var input = document.getElementById("change-me");
+//-Select our input by ID and assign it to the variable, "input"
+//-Use the add event listener method to put an event on "input"
+//-"change" is one of a few dozen strings and add event listener will understand. It's our first argument */
+ input.addEventListener("change", function(e) { //*We pass an entire function as the second argument. 
+    document.getElementById("output").textContent = e.target.value 
+    
+    /*Select the div, and change the "textContent" 
     property to the value of the events target (the input box) })
 -"e" is important here. You can define it as "event" or whatever you need, but it's common to just call it "e"
 -it has properties that help describe the event, includeing the "e.target" object
