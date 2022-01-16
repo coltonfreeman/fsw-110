@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+h1 {
+    text-align: center;
+    background-color: blue;
+}
+
+#user-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr auto auto 0.5fr;
+    gap: 5px;
+}
+
+h2 {
+    align-self: center;
+    font-family: 'Lobster', cursive;
+}
+
+.flex-box {
+    display: flex;
+    margin-left: 0px;
+    gap: 5px;
+}
+
+#submit {
+    width: fit-content;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    font-family:'Lobster', cursive;
+}
+
+footer {
+    text-align: center;
+}
+
+#todo-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 0;
+}
+
+ul button {
+    margin-left: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+.parentList {
+    margin-top: 1.25vh;
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: blue;
+    margin-bottom: 1.25vh;
+    border: 2px solid black;
+    box-shadow: 0px 8px 8px black;
+    padding: 5px;
+}
+@media only screen and (min-width: 768px) {
+    #user-input {
+        justify-content: center;
+        align-items: center;
+    }
+    #title,
+    #description,
+    #toDo {
+        width: 550px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .parentList {
+        width: 75%;
+        margin: 10px auto;
+    }
+}
